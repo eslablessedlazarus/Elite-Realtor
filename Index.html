@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Inquiry | Elite Realty</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="image-panel">
+        <h2>Find Your Home.</h2>
+        <p>Expert guidance in every step of your real estate journey.</p>
+    </div>
+
+    <div class="form-panel">
+        <div class="form-header">
+            <h1>Property Inquiry</h1>
+            <p>Tell us what you're looking for.</p>
+        </div>
+
+        <form action="#" method="POST">
+            <div class="form-row">
+                <div class="form-group" style="flex:1;">
+                    <label>Full Name</label>
+                    <input type="text" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group" style="flex:1;">
+                    <label>Phone</label>
+                    <input type="tel" name="phone" placeholder="(555) 000-0000">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" name="email" placeholder="email@example.com" required>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group" style="flex:1;">
+                    <label>Inquiry Type</label>
+                    <select name="type">
+                        <option value="buy">Buying</option>
+                        <option value="sell">Selling</option>
+                        <option value="rent">Renting</option>
+                    </select>
+                </div>
+                <div class="form-group" style="flex:1;">
+                    <label>Budget Range</label>
+                    <select name="budget">
+                        <option value="300-500k">$300k - $500k</option>
+                        <option value="500-800k">$500k - $800k</option>
+                        <option value="800k+">$800k +</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Message/Requirements</label>
+                <textarea name="message" rows="4" placeholder="Tell us about your dream home..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">SEND INQUIRY</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
+
+<!-- Zeek was here -->
